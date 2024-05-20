@@ -3,9 +3,6 @@ import json
 import os
 from pprint import pprint
 
-# Press ⌃R to execute it or replace it with your code.
-# Press Double ⇧ to search everywhere for classes, files, tool windows, actions, and settings.
-
 from openai import OpenAI
 # Utility Functions
 oai_client = OpenAI(
