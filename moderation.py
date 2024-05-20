@@ -1,5 +1,7 @@
 # 01/15/2024
 # Python Script to use Moderation Classifications
+# The output will 'classify' the input into a category
+# Example: "self_harm = True", depending on the input text
 
 import json
 import os
