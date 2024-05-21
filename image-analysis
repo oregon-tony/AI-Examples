@@ -1,0 +1,30 @@
+Here is an example of AI interpreting a graph of network-throughput for a server.
+
+PROMPT:
+
+Examine the attached graph. 
+A “Healthy” value for the Y-axis is a daily value of “33.0 Tb” or lower. 
+A “Critical” value for the Y-axis is a reading of “33.0 Tb” or higher. 
+The X-axis plots the “Network Bandwidth” in daily increments. 
+Identify the closest day where the value exceeds the critical threshold.
+
+
+The example graph to examine is found here:
+
+https://global.discourse-cdn.com/grafana/original/1X/a5dabb8d4ce9f6aec18ee9dc187e6e34b5e4501c.png
+
+RESPONSE:
+
+To identify the closest day where the value exceeds the critical threshold of 33.0 Tb on the graph:
+
+5/26: The bandwidth is below 32.5 Tb.
+5/27: The bandwidth is still below 33.0 Tb.
+5/28: The bandwidth reaches and slightly exceeds 33.0 Tb for the first time.
+5/29: The bandwidth continues to exceed 33.0 Tb.
+5/30: The bandwidth remains above 33.0 Tb.
+5/31: The bandwidth is significantly above 33.0 Tb.
+The closest day where the value first exceeds the critical threshold of 33.0 Tb is 5/28.
+
+VALIDATION: CORRECT
+
+
