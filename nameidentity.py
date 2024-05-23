@@ -3,7 +3,7 @@
 # Take a string of sentence(s) and extract the key or core words with a confidence score.
 # This example requires environment variables named "LANGUAGE_KEY" and "LANGUAGE_ENDPOINT"
 # If you have an Azure account, you can create a 'free' resource to run this example, see URL ^^
-
+ 
 import os
 
 from azure.ai.textanalytics import TextAnalyticsClient
