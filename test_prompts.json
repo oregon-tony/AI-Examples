@@ -1,0 +1,16 @@
+{
+  "RegressionPrompts":[
+      {
+          "Original_Prompt": "What is the capital of France?",
+          "Expected_Answer": "The capital of France is Paris."
+      },
+      {
+          "Original_Prompt": "Who wrote 'To Kill a Mockingbird'?",
+          "Expected_Answer": "Harper Lee wrote 'To Kill a Mockingbird'."
+      },
+      {
+          "Original_Prompt": "Who was President in 1863?",
+          "Expected_Answer": "In 2023, Joe Biden was President."
+      }
+  ]
+}
