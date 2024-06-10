@@ -18,4 +18,6 @@ summarization.py: summarize a larger block of text down into a shorter summary.
 nameidentity.py: classify words into their category like "time", "place", "quantity"
 
 llmrouter.py: classify a prompt, then route it to the right function to handle the resolution.
+
+promptRegression.py: create a functional test process to test a prompt and its known response.
   
