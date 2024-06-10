@@ -1,6 +1,6 @@
 # Example of comparing a known set of LLM prompts and their correct static
 # responses captured as the "expected" result with the actual live LLM result.
-# The expected and actual are "scored" from similarity. 1.0=Perfect match
+# The expected and actual are "scored" from similarity. 1.0=Perfect match.
 
 # SEE FILE in 'AI-Examples' called 'test_prompts.json'
 
