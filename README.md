@@ -16,4 +16,6 @@ sentiment.py: classify text as either being positive or negative, along with a 0
 summarization.py: summarize a larger block of text down into a shorter summary.
 
 nameidentity.py: classify words into their category like "time", "place", "quantity"
+
+llmrouter.py: classify a prompt, then route it to the right function to handle the resolution.
   
